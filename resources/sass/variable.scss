@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import '/node_modules/datatables.net-dt/css/jquery.dataTables.min.css';
+
+$primary: #047940;
+$bg-grey: #414550;
+$primary-text: #48ab5d;
+$grey-text: #808080;
+$primary-font: 'Poppins', sans-serif;
+
+.primary-bg {
+    background-color: $primary;
+}
+.grey-bg {
+    background-color: $bg-grey;
+}
+.primary-text {
+    color: $primary-text;
+}
+
+.publish_btn {
+    background-color: $primary;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid $primary;
+
+    &:hover {
+        background-color: transparent;
+        color: $primary;
+    }
+
+    &:focus {
+        background-color: transparent;
+        color: $primary;
+    }
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.head {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: $primary-font;
+}

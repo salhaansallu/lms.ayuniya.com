@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-4xl;
+        @apply font-bold;
+        @apply leading-normal;
+    }
+
+    h2 {
+        @apply text-3xl;
+        @apply font-bold;
+        @apply leading-normal;
+    }
+
+    h3 {
+        @apply text-2xl;
+        @apply font-bold;
+        @apply leading-normal;
+    }
+
+    h4 {
+        @apply text-xl;
+        @apply font-bold;
+        @apply leading-normal;
+    }
+
+    h5 {
+        @apply text-lg;
+        @apply font-bold;
+        @apply leading-normal;
+    }
+
+    h6 {
+        @apply text-base;
+        @apply font-bold;
+        @apply leading-normal;
+    }
+
+}
